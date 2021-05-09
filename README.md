@@ -6,7 +6,7 @@ The purpose of this project is to refactor a Microsoft Excel VBA code and evalua
 The data utilized in this project was information on 12 different stocks in 2017 and 2018. The excel file contains information on each stock’s ticker value, date of issue, the opening, closing and adjusted closing price and the volume of the stock. The goal of this data was to be able to look at the results of the 12 stocks annually to evaluate the total daily volume of stocks and the percentage return. By doing this the data would evaluate whether or not one would suggest purchasing one of the 12 stocks.
 # Results
 ## Results of the Refactored VBA Code
-By refactoring the VBA code I was able to change the original code which was good at analyzing a dozen stocks more slowly, to being able to analyze thousands of stocks in seconds to illustrate the best stock options to invest in. The new code decreased the time from nearly 0.50 seconds to run to just under 0.15 seconds. Below are screenshots of the new time it took the code the run. Additionally, from this code it showed that for 2017 data, majority of stocks had a postitive percentage return. Specifically, DQ and SEDG stocks had the highest percentage. While in 2018, all but two stocks had a negative perceentage return. Stocks RUN and ENPH had positive percentages of return.
+By refactoring the VBA code, I was able to change the original code which was good at analyzing a dozen stocks more slowly, to being able to analyze thousands of stocks in seconds to illustrate the best stock options to invest in. The new code decreased the time from nearly 0.50 seconds to run to just under 0.15 seconds. Below are screenshots of the new time it took the code the run. Additionally, from this code it showed that for 2017 data, majority of stocks had a positive percentage return. Specifically, DQ and SEDG stocks had the highest percentage. While in 2018, all but two stocks had a negative percentage return. Stocks RUN and ENPH had positive percentages of return.
 
 ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.PNG)
 ![VBA_Challenge_2017](Resources/VBA_Challenge_2018.PNG)
@@ -150,8 +150,9 @@ Final Refactored VBA Code
 
 # Summary
 ## Advantages Refactoring Code
-The biggest advantage to refactoring code is that is creates a more organized, concise with a simpler set up. The updated code can be useful for debugging, software and design improvements and faster speed. Because it is a more efficient set up it is easier to follow and more straightforward.
-## Disadvantaages Refactoring Code
+The biggest advantage to refactoring code is that is creates a more organized, concise with a simpler set up. The updated code can be useful for debugging, software and design improvements and faster speed. Because it is a more efficient set up it is easier to follow and more straightforward. Additionally, refactoring code can make it easier for future coders to use and it allows coding to change and adapt as new information/techniques for codes are found and shared.
+
+## Disadvantages Refactoring Code
 A large disadvantage of refactoring code is that it is not always an option. This is due to some data sets not being easily changeable with other refactored code. It is possible that while you are refactoring code you make an error that changes the outcome of the code and alters the results. 
 ## Advantages of Original and Refactored VBA script
 In this case, the biggest advantage for refactoring this VBA script was decreasing the run time. Initially when we first ran the code both 2017 and 2018 data took just under 0.50 seconds. However, when using the refactored code 2017 and 2018 data was able to be run in under .16 seconds, screenshots below.
